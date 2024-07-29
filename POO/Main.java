@@ -1,7 +1,7 @@
 package POO;
 
 public class Main {
-    public static void main()
+    public static void main(String[] args)
     {
         Cao cachorro = new Cao();
         cachorro.nome = "Bobby";
@@ -29,6 +29,14 @@ public class Main {
         v.comissao = 9.0;
 
         Pedido pe = new Pedido();
+
+        Conta cp = new Poupanca();
+        
+        cp.depositar(732);
+
+        cp.sacar(8);
+
+        cp.getSaldo();
 
     }
 }

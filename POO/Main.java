@@ -27,5 +27,8 @@ public class Main {
         Vendedor v = new Vendedor();
         v.nome = "Aline";
         v.comissao = 9.0;
+
+        Pedido pe = new Pedido();
+
     }
 }

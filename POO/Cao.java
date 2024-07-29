@@ -3,7 +3,7 @@ package POO;
 public class Cao {
     String nome;
     String cor;
-    int idade;
+    private int idade;
     double peso;
 
     public Cao()
@@ -17,6 +17,16 @@ public class Cao {
         this.idade = idade;
     }
 
+    public void setIdade(int i)
+    {
+        this.idade = i;
+    }
+
+    public int getIdade()
+    {
+        return this.idade;
+    }
+
     public void Anda()
     {
         System.out.println("Estou andando..." + cor);
@@ -25,5 +35,15 @@ public class Cao {
     public void DadosCao()
     {
         System.out.println(nome + " " + idade);
+    }
+
+    public boolean VerificarIdade()
+    {
+        if(idade > 10)
+        {
+            return true;
+        }else{
+            return false;
+        }
     }
 }

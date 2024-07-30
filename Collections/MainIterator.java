@@ -3,7 +3,7 @@ package Collections;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class Main {
+public class MainIterator {
     public static void main(String[] args) {
         ArrayList<Integer> numeros = new ArrayList<>();
         numeros.add(1);

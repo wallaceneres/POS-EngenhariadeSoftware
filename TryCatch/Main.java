@@ -14,6 +14,8 @@ public class Main {
 
             System.err.println("Valor digitado:" + numero1);
 
+            s.close();
+
         }catch(Exception ex){
             System.out.println("Erro - Valor digitado não é um número");
         }
